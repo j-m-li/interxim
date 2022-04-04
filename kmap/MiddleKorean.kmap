@@ -1,0 +1,225 @@
+// This file has been converted from:
+// http://jshin.net/i18n/korean/hunmin.html
+// http://jshin.net/i18n/korean/mid_kor.vim
+// By Gaspar Sinai gsinai@yudit.org
+// 2002-05-11.
+// All text below are origianted from Jungshik Shin's vim kamp file.
+//------------------------------------------------------------------
+// Maintainer:   Jungshik Shin jshin@mailaps.org
+// Last Changed: 2002-05-02
+//
+// Keymap files for Korean Hangul input with U+1100 Hangul Conjoining Jamos 
+// leading consonants are typed in with lower case letters.
+// trailing consonants are typed in with upper case letters.
+// r, R : leading ㄹ(Rieul),  final ㄹ (Rieul)
+// l,L  : denotes lighter consonants of preceding 
+//        labial consonants represented by   m/M, b/B, bb/BB.
+//    e.g.  ㅸ (labial light) = bl/BL, ㅱ = ml/ML
+// f    : Yeorin Hieuh  : ㆆ
+// q    : leading YetIeung  ㆁ
+// z    : PanSios ㅿ
+// ng   : map to either trailing Ieung or trailing YetIeung.
+//        For 15th century text, the latter is a better choice
+//        because it was used to denote [ng] at the syllable coda position.
+//        Sometime during the 16th century, it got obsolete and
+//        its place was taken over by Ieung. 
+// x,0,O : leading Ieung (a place holder for a syllable beg. with a vowel) 
+//  )   : Leading consonant filler (shift-0)
+//  (   : Medial vowel filler
+// I have yet to decide what to do with medial vowel filler.
+
+"g = 0x1100", 
+"gg = 0x1101", 
+"n = 0x1102", 
+"d = 0x1103", 
+"dd = 0x1104", 
+"r = 0x1105", 
+"m = 0x1106", 
+"b = 0x1107", 
+"bb = 0x1108", 
+"s = 0x1109",
+"ss = 0x110a",
+
+// We need to type intial Ieung too often, but 
+// I'm not sure which one is the best, 0, x, or O. 
+
+"0x30 = 0x110b", 
+"x = 0x110b",   
+"O = 0x110b",
+"j = 0x110c",
+"jj = 0x110d",
+"c = 0x110e",
+"k = 0x110f",
+"t = 0x1110",
+"p = 0x1111",
+"h = 0x1112",
+"lg = 0x1113", // initial 'ng'(U+11C5), but use 'lg' instead to let
+               // 'ng' be used for trailing (Yet) Ieung.
+"nn = 0x1114",
+"nd = 0x1115",
+"nb = 0x1116",
+"dg = 0x1117",
+"rn = 0x1118",
+"rr = 0x1119",
+"rh = 0x111a",
+"rl = 0x111b",  // l denotes 'light'
+"mb = 0x111c",
+"ml = 0x111d",
+"bg = 0x111e",
+"bn = 0x111f",
+"bd = 0x1120",
+"bs = 0x1121",
+"bsg = 0x1122",
+"bsd = 0x1123",
+"bsb = 0x1124",
+"bss = 0x1125",
+"bsj = 0x1126",
+"bj = 0x1127",
+"bc = 0x1128",
+"bt = 0x1129",
+"bp = 0x112a",
+"bl = 0x112b",
+"bbl = 0x112c",
+"sg = 0x112d",
+"sn = 0x112e",
+"sd = 0x112f",
+"sr = 0x1130",
+"sm = 0x1131",
+"sb = 0x1132",
+"sbg = 0x1133",
+"sss = 0x1134",
+"s 0x30 = 0x1135",
+"sj = 0x1136",
+"sc = 0x1137",
+"sk = 0x1138",
+"st = 0x1139",
+"sp = 0x113a",
+"sh = 0x113b",
+"z = 0x1140",
+"0x30 g = 0x1141",
+"0x30 0x30 = 0x1147",
+"q = 0x114c",   // leading consonant YetIeung
+"hh = 0x1158",
+"f = 0x1159",     // YeoRinHieuh
+// omit cluster of Ieung + another consonant
+
+") = 0x115f",  Leading consonant filler
+"( = 0x1160",  Medial vowel filler
+
+// Medial vowels
+"a = 0x1161",
+"ae = 0x1162",
+"ya = 0x1163",
+"yae = 0x1164",
+"eo = 0x1165",
+"e = 0x1166",
+"yeo = 0x1167",
+"ye = 0x1168",
+"o = 0x1169",
+"wa = 0x116a",
+"wae = 0x116b",
+"oe = 0x116c",
+"yo = 0x116d",
+"u = 0x116e",
+"weo = 0x116f",
+"we = 0x1170",
+"wi = 0x1171",
+"yu = 0x1172",
+"eu = 0x1173",
+"Eu = 0x1174",
+"eui = 0x1174",
+"i = 0x1175",
+"A = 0x119e",
+"Ai = 0x11a1",
+
+
+// trailing consonants
+"G = 0x11a8",
+"GG = 0x11a9",
+"GS = 0x11aa",
+"N = 0x11ab",
+"NJ = 0x11ac",
+"NH = 0x11ad",
+"D = 0x11ae",
+"R = 0x11af",
+"RG = 0x11b0",
+"RM = 0x11b1",
+"RB = 0x11b2",
+"RS = 0x11b3",
+"RT = 0x11b4",
+"RP = 0x11b5",
+"RH = 0x11b6",
+"M = 0x11b7",
+"B = 0x11b8",
+"BS = 0x11b9",
+"S = 0x11ba",
+"SS = 0x11bb",
+
+//  see below.
+
+"J = 0x11bd",
+"C = 0x11be",
+"K = 0x11bf",
+"T = 0x11c0",
+"P = 0x11c1",
+"H = 0x11c2",
+"GR = 0x11c3",
+"NG = 0x11c5",
+"ND = 0x11c6",
+"NS = 0x11c7",
+"NZ = 0x11c8",
+"NT = 0x11c9",
+"DG = 0x11ca",
+"DR = 0x11cb",
+"RN = 0x11cd",
+"RD = 0x11ce",
+"RR = 0x11d0",
+"RZ = 0x11d7",
+"RK = 0x11d8",
+"RF = 0x11d9",
+"MG = 0x11da",
+"MR = 0x11db",
+"MB = 0x11dc",
+"MS = 0x11dd",
+"MZ = 0x11df",
+"MC = 0x11e0",
+"MH = 0x11e1",
+"ML = 0x11e2",
+"BR = 0x11e3",
+"BP = 0x11e4",
+"BH = 0x11e5",
+"BL = 0x11e6",
+"Bl = 0x11e6",
+"SG = 0x11e7",
+"SD = 0x11e8",
+"SR = 0x11e9",
+"SB = 0x11ea", 
+"Z = 0x11eb",  // BanSiOs
+"XG = 0x11ec",
+"XGG = 0x11ed",
+"XX = 0x11ee",
+"XK = 0x11ef",
+"QS = 0x11f1",
+"QZ = 0x11f2",
+"PB = 0x11f3",
+"PL = 0x11f4",
+"HN = 0x11f5",
+"HR = 0x11f6",
+"HM = 0x11f7",
+"HB = 0x11f8",
+"F = 0x11f9",    //YeoRin Hieuh
+
+// Sometime during 16th century, YetIeung was replaced by Ieung 
+// for  [ng].  
+
+"Q = 0x11f0",  //trailing Yet Ieung
+"X = 0x11bc",  //trailing Ieung
+"ng = 0x11bc",  //trailing Ieung
+
+// Use the following for 15th century text in which Yet Ieung is used
+// for  [ng] 
+//ng = 0x11f0",  //Yet Ieung
+//Q = 0x11bc" //trailing Ieung
+
+"0x3b = 0x302e",  // Hangul tone mark : semicolon
+"0x3a = 0x302f",  // Hangul tone mark : colon

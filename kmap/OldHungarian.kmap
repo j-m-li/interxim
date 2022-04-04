@@ -1,0 +1,144 @@
+// OldHungarian.kmap
+// GNU (C) Gaspar Sinai <gsinai@yudit.org>
+// This kmap will convert keystrokes to old Hungarian letters
+// and ligatures into Unicode Private Use Area
+// The  repülőékezet is used:
+//  o + : will become ö for instance.
+// Note that files created with this kmap  may not be portable.
+// Tokyo 2002-02-01
+
+// OLD HUNGARIAN LETTERS
+"a = 0xEE00", //  OLD HUNGARIAN LETTER A
+"a 0x27 = 0xEE01", //  OLD HUNGARIAN LETTER AA
+"b = 0xEE02", //  OLD HUNGARIAN LETTER EB
+"c = 0xEE03", //  OLD HUNGARIAN LETTER EC
+"c s = 0xEE04", //  OLD HUNGARIAN LETTER ECS
+"d = 0xEE05", //  OLD HUNGARIAN LETTER ED
+"A E = 0xEE06", //  OLD HUNGARIAN LETTER AE
+"e = 0xEE07", //   OLD HUNGARIAN LETTER E
+"e 0x27 = 0xEE08", //  OLD HUNGARIAN LETTER EE
+"f = 0xEE09", //  OLD HUNGARIAN LETTER EF
+"g = 0xEE0A", //  OLD HUNGARIAN LETTER EG
+"g y = 0xEE0B", //  OLD HUNGARIAN LETTER EGY
+"h = 0xEE0C", //  OLD HUNGARIAN LETTER EH
+"i = 0xEE0D", //  OLD HUNGARIAN LETTER I
+"i 0x27 = 0xEE0E", //  OLD HUNGARIAN LETTER II
+"j = 0xEE0F", //  OLD HUNGARIAN LETTER EJ
+"K = 0xEE10", //  OLD HUNGARIAN LETTER AK
+"k = 0xEE11", //  OLD HUNGARIAN LETTER EK
+"l = 0xEE12", //  OLD HUNGARIAN LETTER EL
+"l y = 0xEE13", //  OLD HUNGARIAN LETTER ELY
+"m = 0xEE14", //   OLD HUNGARIAN LETTER EM
+"n = 0xEE15", //  OLD HUNGARIAN LETTER EN
+"n y = 0xEE16", //  OLD HUNGARIAN LETTER ENY
+"o = 0xEE17", //  OLD HUNGARIAN LETTER O
+"o 0x27 = 0xEE18", //  OLD HUNGARIAN LETTER OO
+"o 0x3a = 0xEE19", //  OLD HUNGARIAN LETTER OE
+"o 0x22 = 0xEE1A", //  OLD HUNGARIAN LETTER OEE
+"p = 0xEE1B", //  OLD HUNGARIAN LETTER EP
+"r = 0xEE1C", //   OLD HUNGARIAN LETTER ER
+"S = 0xEE1D", //  OLD HUNGARIAN LETTER AS
+"s = 0xEE1E", //  OLD HUNGARIAN LETTER ES
+"s z = 0xEE1F", //  OLD HUNGARIAN LETTER ESZ
+"t = 0xEE20", //   OLD HUNGARIAN LETTER ET
+"T Y = 0xEE21", //  OLD HUNGARIAN LETTER ATY
+"t y = 0xEE22", //  OLD HUNGARIAN LETTER ETY
+"u = 0xEE23", //  OLD HUNGARIAN LETTER U
+"u 0x27 = 0xEE24", //  OLD HUNGARIAN LETTER UU
+"u 0x3a = 0xEE25", //  OLD HUNGARIAN LETTER UE
+"u 0x22 = 0xEE26", //  OLD HUNGARIAN LETTER UEE
+"v = 0xEE27", //  OLD HUNGARIAN LETTER EV
+"z = 0xEE28", //  OLD HUNGARIAN LETTER EZ
+"z s = 0xEE29", //   OLD HUNGARIAN LETTER EZS
+//
+// SEPARATOR
+//
+"0x2d = 0xEE2F",
+//
+// OLD HUNGARIAN NUMBERS
+//
+"0x31 = 0xEE31", //   OLD HUNGARIAN NUMBER ONE
+"0x35 = 0xEE35", //   OLD HUNGARIAN NUMBER FIVE
+"0x31 0x30 = 0xEE3A", //  OLD HUNGARIAN NUMBER TEN
+"0x35 0x30  = 0xEE3B", //  OLD HUNGARIAN NUMBER FIFTY
+"0x31 0x30  0x30  = 0xEE3C", //   OLD HUNGARIAN NUMBER ONE HUNDRED
+"0x31 0x30 0x30 0x30 = 0xEE3D", //  OLD HUNGARIAN NUMBER ONE THOUSAND
+//
+// OLD HUNGARIAN LIGATURES
+//
+"AB = 0xEE40",
+"AD = 0xEE41",
+"AL = 0xEE42",
+"AMB = 0xEE43",
+"AND = 0xEE44",
+"ANT = 0xEE45",
+"AR = 0xEE46",
+"ATT = 0xEE47",
+"A 0x27 R = 0xEE48",
+"BA = 0xEE49",
+"BE = 0xEE4A",
+"BET = 0xEE4B",
+"BI = 0xEE4C",
+"BO = 0xEE4D",
+"CAK = 0xEE4E",
+"CK = 0xEE4F",
+"CSA = 0xEE50",
+"CSIN = 0xEE51",
+"DU = 0xEE52",
+"EMP = 0xEE53",
+"ENT = 0xEE54",
+"GA = 0xEE55",
+"GE = 0xEE56",
+"GI = 0xEE57",
+"GO = 0xEE58",
+"HA = 0xEE59",
+"HE = 0xEE5A",
+"HI = 0xEE5B",
+"HO = 0xEE5C",
+"IT = 0xEE5D",
+"I 0x27 RT = 0xEE5E",
+"LA = 0xEE5F",
+"LA 0x27 = 0xEE60",
+"LE = 0xEE61",
+"LO = 0xEE62",
+"LT = 0xEE63",
+"MB = 0xEE64",
+"NA = 0xEE65",
+"NAP = 0xEE66",
+"NB = 0xEE67",
+"NC = 0xEE68",
+"ND = 0xEE69",
+"NGY = 0xEE6A",
+"NI = 0xEE6B",
+"NK = 0xEE6C",
+"NT = 0xEE6D",
+"OR = 0xEE6E",
+"RA = 0xEE6F",
+"RE = 0xEE70",
+"RI = 0xEE71",
+"RO = 0xEE72",
+"RT = 0xEE73",
+"RU = 0xEE74",
+"SA = 0xEE75",
+"SE = 0xEE76",
+"SI = 0xEE77",
+"SK = 0xEE78",
+"SM = 0xEE79",
+"SO = 0xEE7A",
+"SP = 0xEE7B",
+"ST = 0xEE7C",
+"SZT = 0xEE7D",
+"TI = 0xEE7E",
+"TPRU = 0xEE7F",
+"TPRUS = 0xEE80",
+"TYA = 0xEE81",
+"UL = 0xEE82",
+"UM = 0xEE83",
+"UNK = 0xEE84",
+"UR = 0xEE85",
+"US = 0xEE86",
+"VA = 0xEE87",
+"VA 0x27 R = 0xEE88",
+"ZA = 0xEE89",
+"ZR = 0xEE8A",
+"ZT = 0xEE8B",

@@ -1,0 +1,13 @@
+// Romanian.kmap for the Unicode editor Yudit
+// 1 Sep. 2002 Horia Dumitrescu <pandumi@wanadoo.fr>
+
+"S'=0x015E", // S with cedilla
+"T'=0x0162", // T with cedilla
+"s'=0x015F", // s with cedilla
+"t'=0x0163", // t with cedilla
+"A^=0x00C2", // A with circumflex
+"a^=0x00E2", // a with circumflex
+"I^=0x00CE", // I with circumflex
+"i^=0x00EE", // i with circumflex
+"A<=0x0102", // A with breve
+"a<=0x0103", // a with breve

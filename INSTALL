@@ -1,0 +1,6 @@
+
+You need to install XUtf8 and fltk-utf8 before compiling InterXim.
+You can find them at http://www.oksid.ch/xd640/download.html
+Then type :
+	./configure
+	make install

@@ -1,0 +1,22 @@
+// Russian-ISO-Translit.kmap for the Unicode editor Yudit
+// to type ISO-9 transliteration of Russian language
+// 2001-03-31 Thomas Henlich <thenlich@web.de>
+
+"A^=0x00c2", // Â = LATIN CAPITAL LETTER A WITH CIRCUMFLEX (Я; YA)
+"C<=0x010C", // Č = LATIN CAPITAL LETTER C WITH CARON      (Ч; CHE)
+"E`=0x00c8", // È = LATIN CAPITAL LETTER E WITH GRAVE      (Э; E)
+"E:=0x00cb", // Ë = LATIN CAPITAL LETTER E WITH DIAERESIS  (Ё; IO)
+"S<=0x0160", // Š = LATIN CAPITAL LETTER S WITH CARON      (Ш; SHA)
+"S^=0x015C", // Ŝ = LATIN CAPITAL LETTER S WITH CIRCUMFLEX (Щ; SHCHA)
+"U^=0x00db", // Û = LATIN CAPITAL LETTER U WITH CIRCUMFLEX (Ю; YU)
+"Z<=0x017D", // Ž = LATIN CAPITAL LETTER Z WITH CARON      (Ж; ZHE)
+"a^=0x00e2", // â = LATIN SMALL LETTER A WITH CIRCUMFLEX
+"c<=0x010D", // č = LATIN SMALL LETTER C WITH CARON
+"e`=0x00e8", // è = LATIN SMALL LETTER E WITH GRAVE
+"e:=0x00eb", // ë = LATIN SMALL LETTER E WITH DIAERESIS
+"s<=0x0161", // š = LATIN SMALL LETTER S WITH CARON
+"s^=0x015D", // ŝ = LATIN SMALL LETTER S WITH CIRCUMFLEX
+"u^=0x00fb", // û = LATIN SMALL LETTER U WITH CIRCUMFLEX
+"z<=0x017E", // ž = LATIN SMALL LETTER Z WITH CARON
+"'=0x2032",  // ′ = PRIME        (Ь/ь = SOFT SIGN)
+"''=0x2033", // ″ = DOUBLE PRIME (Ъ/ъ = HARD SIGN)

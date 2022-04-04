@@ -1,0 +1,17 @@
+// Slovenian.kmap for the Unicode editor Yudit.
+// 2001-11-11 Roman Maurer <roman.maurer@amis.net>
+//
+// This file is based on Croatian.kmap with notable
+// exception that Slovenian alphabet does not treat
+// "LJ" and "DZ WITH CARON" as one letter.
+
+"C<=0x010C", // Č = LATIN CAPITAL LETTER C WITH CARON
+"C'=0x0106", // Ć = LATIN CAPITAL LETTER C WITH ACUTE
+"D;=0x0110", // Đ = LATIN CAPITAL LETTER D WITH STROKE
+"S<=0x0160", // Š = LATIN CAPITAL LETTER S WITH CARON
+"Z<=0x017D", // Ž = LATIN CAPITAL LETTER Z WITH CARON
+"c<=0x010D", // č = LATIN SMALL LETTER C WITH CARON
+"c'=0x0107", // ć = LATIN SMALL LETTER C WITH ACUTE
+"d;=0x0111", // đ = LATIN SMALL LETTER D WITH STROKE
+"s<=0x0161", // š = LATIN SMALL LETTER S WITH CARON
+"z<=0x017E", // ž = LATIN SMALL LETTER Z WITH CARON

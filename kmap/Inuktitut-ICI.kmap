@@ -1,0 +1,156 @@
+// Inuktitut-ICI.kmap for the Unicode editor Yudit
+// based on standard romanization of syllabics used by Nunavut
+
+// ICI standardized qaliujaaqpait --> qaniujaaqpait
+// see http://www.langcom.nu.ca/english/languages/writing.html
+// or  http://www.nunavut.com/nunavut99/english/our.html
+
+// Extensions:
+// 'lh' treated as an alternative for '&' (unvoiced l)
+
+// Revision history
+// 2002-10-07 first version by Howard.Johnson@nrc.ca
+// 2002-11-10 revised to correctly handle qqi qqii, etc.
+
+"i     = 0x1403",
+"ii    = 0x1404",
+"u     = 0x1405",
+"uu    = 0x1406",
+"a     = 0x140a",
+"aa    = 0x140b",
+"h     = 0x157c",
+
+"pi    = 0x1431",
+"pii   = 0x1432",
+"pu    = 0x1433",
+"puu   = 0x1434",
+"pa    = 0x1438",
+"paa   = 0x1439",
+"p     = 0x1449",
+
+"ti    = 0x144e",
+"tii   = 0x144f",
+"tu    = 0x1450",
+"tuu   = 0x1451",
+"ta    = 0x1455",
+"taa   = 0x1456",
+"t     = 0x1466",
+
+"ki    = 0x146d",
+"kii   = 0x146e",
+"ku    = 0x146f",
+"kuu   = 0x1470",
+"ka    = 0x1472",
+"kaa   = 0x1473",
+"k     = 0x1483",
+
+"gi    = 0x148b",
+"gii   = 0x148c",
+"gu    = 0x148d",
+"guu   = 0x148e",
+"ga    = 0x1490",
+"gaa   = 0x1491",
+"g     = 0x14a1",
+
+"mi    = 0x14a5",
+"mii   = 0x14a6",
+"mu    = 0x14a7",
+"muu   = 0x14a8",
+"ma    = 0x14aa",
+"maa   = 0x14ab",
+"m     = 0x14bb",
+
+"ni    = 0x14c2",
+"nii   = 0x14c3",
+"nu    = 0x14c4",
+"nuu   = 0x14c5",
+"na    = 0x14c7",
+"naa   = 0x14c8",
+"n     = 0x14d0",
+
+"si    = 0x14ef",
+"sii   = 0x14f0",
+"su    = 0x14f1",
+"suu   = 0x14f2",
+"sa    = 0x14f4",
+"saa   = 0x14f5",
+"s     = 0x1505",
+
+"li    = 0x14d5",
+"lii   = 0x14d6",
+"lu    = 0x14d7",
+"luu   = 0x14d8",
+"la    = 0x14da",
+"laa   = 0x14db",
+"l     = 0x14ea",
+
+"ji    = 0x1528",
+"jii   = 0x1529",
+"ju    = 0x152a",
+"juu   = 0x152b",
+"ja    = 0x152d",
+"jaa   = 0x152e",
+"j     = 0x153e",
+
+"vi    = 0x1555",
+"vii   = 0x1556",
+"vu    = 0x1557",
+"vuu   = 0x1558",
+"va    = 0x1559",
+"vaa   = 0x155a",
+"v     = 0x155d",
+
+"ri    = 0x1546",
+"rii   = 0x1547",
+"ru    = 0x1548",
+"ruu   = 0x1549",
+"ra    = 0x154b",
+"raa   = 0x154c",
+"r     = 0x1550",
+
+"qi    = 0x157f",
+"qii   = 0x1580",
+"qu    = 0x1581",
+"quu   = 0x1582",
+"qa    = 0x1583",
+"qaa   = 0x1584",
+"q     = 0x1585",
+
+"ngi   = 0x158f",
+"ngii  = 0x1590",
+"ngu   = 0x1591",
+"nguu  = 0x1592",
+"nga   = 0x1593",
+"ngaa  = 0x1594",
+"ng    = 0x1595",
+
+"lhi   = 0x15a0",
+"lhii  = 0x15a1",
+"lhu   = 0x15a2",
+"lhuu  = 0x15a3",
+"lha   = 0x15a4",
+"lhaa  = 0x15a5",
+"lh    = 0x15a6",
+
+"&i    = 0x15a0",
+"&ii   = 0x15a1",
+"&u    = 0x15a2",
+"&uu   = 0x15a3",
+"&a    = 0x15a4",
+"&aa   = 0x15a5",
+"&     = 0x15a6",
+
+"nngi  = 0x1671",
+"nngii = 0x1672",
+"nngu  = 0x1673",
+"nnguu = 0x1674",
+"nnga  = 0x1675",
+"nngaa = 0x1676",
+"nng   = 0x1596",
+
+"qqi    = 0x1585 0x146d",
+"qqii   = 0x1585 0x146e",
+"qqu    = 0x1585 0x146f",
+"qquu   = 0x1585 0x1470",
+"qqa    = 0x1585 0x1472",
+"qqaa   = 0x1585 0x1473",

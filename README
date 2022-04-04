@@ -1,0 +1,100 @@
+
+Copyright: Released under the GNU General Public License, version 2,
+           dated June 1991, worded by the Free Software Foundation.
+           Please read the file COPYING. (GNU)
+----------------------------------------------------------------------------
+
+USAGE :
+
+In your shell type :
+	./src/interxim &
+	export XMODIFIERS="@im=interxim"
+	your_application
+
+
+In your application press <SHIFT><SpaceBar> to open a converter window.
+Click on the setup button. Click on the first top left button to select
+a kmap (Keyboard Map) converter (these are located in the ./kmap directory
+of the source tarball).
+Click on the font button to select a list of font to use to display
+your strings.
+Validate with ok.
+You can now type your strings in your application.
+You can switch between converter using <F1>..<F12> function keys.
+Use <CTRL>k or <RETURN> to flush the string buffer.
+Press <SHIFT><SpaceBar> to close the converter window.
+
+You have a question ?
+	
+	mail to : oksid@bluewin.ch
+
+--------------------------------------------------------------------------
+
+WARNING : if you use the "C" locale with XFree86 < 4.1.0 you must never
+          call XCloseIM() or XDestroyIC() !!!
+
+--------------------------------------------------------------------------
+
+The program "your_application" MUST support Unicode keysyms. The only
+known softwares that support Unicode keysyms are:
+	XUtf8 library ( http://www.oksid.ch/xutf8/ )
+	fltk-utf8 library ( http://www.oksid.ch/fltk-utf/ )
+	The Xd640 project ( http://www.oksid.ch/xd640/ )
+	Yudit  ( http://www.yudit.org )
+
+To support Unicode keysyms the application must have these lines in its
+keyboard event handler :
+
+event_handler () 
+{
+	len = Xutf8LookupString(xim_ic, &xevent.xkey, 
+		buf, 127, &keysym, &status);
+	if (len == 0 && (keysym & 0xFF000000) == 0x01000000) {
+		len = unicode_to_utf8 (keysym & 0x00FFFFFF, buf);
+	}
+}
+
+int unicode_to_utf8 (long ucs, char *buf) 
+{
+	/* buf must be at least 5 byte long */
+
+        if (ucs < 0x000080) {
+                buf[0] = ucs;
+                return 1;
+        } else if (ucs < 0x000800) {
+                buf[0] = 0xC0 | (ucs >> 6);
+                buf[1] = 0x80 | (ucs & 0x3F);
+                return 2;
+        } else if (ucs < 0x010000) {
+                buf[0] = 0xE0 | (ucs >> 12);
+                buf[1] = 0x80 | ((ucs >> 6) & 0x3F);
+                buf[2] = 0x80 | (ucs & 0x3F);
+                return 3;
+        } else if (ucs < 0x00200000) {
+                buf[0] = 0xF0 | (ucs >> 18);
+                buf[1] = 0x80 | ((ucs >> 12) & 0x3F);
+                buf[2] = 0x80 | ((ucs >> 6) & 0x3F);
+                buf[3] = 0x80 | (ucs & 0x3F);
+                buf[3] = 0x80 | (ucs & 0x3F);
+                return 4;
+        } else if (ucs < 0x01000000) {
+                buf[0] = 0xF8 | (ucs >> 24);
+                buf[1] = 0x80 | ((ucs >> 18) & 0x3F);
+                buf[2] = 0x80 | ((ucs >> 12) & 0x3F);
+                buf[3] = 0x80 | ((ucs >> 6) & 0x3F);
+                buf[4] = 0x80 | (ucs & 0x3F);
+                return 5;
+        }
+        return 0;
+}
+
+--------------------------------------------------------------------------
+IMdkit directory  comes from the xcin distribution.
+( http://xcin.linux.org.tw )
+
+kmap directory comes from the yudit distribution.
+( http://www.yudit.org/ )
+
+Special thanks to Gaspar Sinai for his freebacks and his great work on Yudit.
+
+

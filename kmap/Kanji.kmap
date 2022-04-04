@@ -1,0 +1,27 @@
+//
+// This is just a half-hearted attempt to create a map 
+// for the most often used kanjis with japanese phonetic
+// Gaspar Sinai <gsinai@yudit.org>
+"inui=0x4E7E",
+"yuuko=0x512A 0x5B50",
+"toukyou=0x6771 0x4EAC",
+"toukyouto=0x6771 0x4EAC 0x90FD",
+"yokohamashi=0x6A2A 0x6D5C 0x5E02",
+"himonya=0x7891 0x6587 0x8c37",
+"himonnya=0x7891 0x6587 0x8C37",
+"meguroku=0x76EE 0x9ED2 0x533A",
+"yuubin=0x3012",
+"0x30=0xFF10",		// FULLWIDTH DIGIT ZERO
+"0x31=0xFF11",		// FULLWIDTH DIGIT ONE
+"0x32=0xFF12",		// FULLWIDTH DIGIT TWO
+"0x33=0xFF13",		// FULLWIDTH DIGIT THREE
+"0x34=0xFF14",		// FULLWIDTH DIGIT FOUR
+"0x35=0xFF15",		// FULLWIDTH DIGIT FIVE
+"0x36=0xFF16",		// FULLWIDTH DIGIT SIX
+"0x37=0xFF17",		// FULLWIDTH DIGIT SEVEN
+"0x38=0xFF18",		// FULLWIDTH DIGIT EIGHT
+"0x39=0xFF19",		// FULLWIDTH DIGIT NINE
+"-1=0xFF5C",		// FULLWIDTH VERTICAL LINE
+"-2=0x2026",		// HORIZONTAL ELLIPSIS
+"-=0x30FC",		// PROLONG
+

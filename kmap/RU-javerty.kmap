@@ -1,0 +1,98 @@
+// Input table for Russian ЯВЕРТЫ keyboard. 
+
+//
+// Composed by Eugene Crosser <crosser@average.org> out of this one:
+
+// Cyrillic input table following the 1995 edition of international
+// standard ISO 9 Transliteration of Cyrillic characters:
+
+// Created with Emacs for Yudit and decorated with Yudit
+// © 1998-04-18 Roman Czyborra@cs.tu-berlin.de
+// Additions and improvements welcome
+
+// modified for ЯВЕРТЫ layout (with some enhancements) from the 
+// above by Radovan Garabík <garabik@melkor.dnp.fmph.uniba.sk> 2001-08-08
+
+
+
+// 0. Quotation marks and special symbols popular with Cyrillic
+
+"<<=0x00AB", // « = LEFT-POINTING DOUBLE ANGLE QUOTATION MARK = <Q>
+">>=0x00BB", // » = RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK = </Q>
+",,=0x201E", // „ = DOUBLE LOW-9 QUOTATION MARK = <Q>
+"\"\"=0x201C", // “ = LEFT DOUBLE QUOTATION MARK = </Q>
+
+// 1. General table for Slavic Cyrillic languages
+
+// The neat ISO 9 transliterations are worth remembering!
+// First the full line of Capital letters for clarity:
+
+"A=0x0410", // А = CYRILLIC CAPITAL LETTER A 
+"B=0x0411", // Б = CYRILLIC CAPITAL LETTER BE
+"W=0x0412", // В = CYRILLIC CAPITAL LETTER VE
+"G=0x0413", // Г = CYRILLIC CAPITAL LETTER GHE
+"D=0x0414", // Д = CYRILLIC CAPITAL LETTER DE
+"E=0x0415", // Е = CYRILLIC CAPITAL LETTER IE
+"$=0x0401", // Ё = CYRILLIC CAPITAL LETTER IO 
+"V=0x0416", // Ж = CYRILLIC CAPITAL LETTER ZHE
+"Z=0x0417", // З = CYRILLIC CAPITAL LETTER ZE
+"I=0x0418", // И = CYRILLIC CAPITAL LETTER I
+"J=0x0419", // Й = CYRILLIC CAPITAL LETTER SHORT I
+"K=0x041A", // К = CYRILLIC CAPITAL LETTER KA
+"L=0x041B", // Л = CYRILLIC CAPITAL LETTER EL
+"M=0x041C", // М = CYRILLIC CAPITAL LETTER EM
+"N=0x041D", // Н = CYRILLIC CAPITAL LETTER EN
+"O=0x041E", // О = CYRILLIC CAPITAL LETTER O
+"P=0x041F", // П = CYRILLIC CAPITAL LETTER PE
+"R=0x0420", // Р = CYRILLIC CAPITAL LETTER ER
+"S=0x0421", // С = CYRILLIC CAPITAL LETTER ES
+"T=0x0422", // Т = CYRILLIC CAPITAL LETTER TE
+"U=0x0423", // У = CYRILLIC CAPITAL LETTER U
+"F=0x0424", // Ф = CYRILLIC CAPITAL LETTER EF
+"H=0x0425", // Х = CYRILLIC CAPITAL LETTER HA
+"C=0x0426", // Ц = CYRILLIC CAPITAL LETTER TSE
+"+=0x0427", // Ч = CYRILLIC CAPITAL LETTER CHE
+"{=0x0428", // Ш = CYRILLIC CAPITAL LETTER SHA
+"}=0x0429", // Щ = CYRILLIC CAPITAL LETTER SHCHA
+"X_=0x042A", // Ъ = CYRILLIC CAPITAL LETTER HARD SIGN
+"Y=0x042B", // Ы = CYRILLIC CAPITAL LETTER YERU
+"X=0x042C", // Ь = CYRILLIC CAPITAL LETTER SOFT SIGN
+"|=0x042D", // Э = CYRILLIC CAPITAL LETTER E
+"~=0x042E", // Ю = CYRILLIC CAPITAL LETTER YU
+"Q=0x042F", // Я = CYRILLIC CAPITAL LETTER YA
+
+// Then the same thing in lower case:
+
+"a=0x0430", // а = CYRILLIC SMALL LETTER A
+"b=0x0431", // б = CYRILLIC SMALL LETTER BE
+"w=0x0432", // в = CYRILLIC SMALL LETTER VE
+"g=0x0433", // г = CYRILLIC SMALL LETTER GHE
+"d=0x0434", // д = CYRILLIC SMALL LETTER DE
+"e=0x0435", // е = CYRILLIC SMALL LETTER IE
+"#=0x0451", // ё = CYRILLIC SMALL LETTER IO
+"v=0x0436", // ж = CYRILLIC SMALL LETTER ZHE
+"z=0x0437", // з = CYRILLIC SMALL LETTER ZE
+"i=0x0438", // и = CYRILLIC SMALL LETTER I
+"j=0x0439", // й = CYRILLIC SMALL LETTER SHORT I
+"k=0x043A", // к = CYRILLIC SMALL LETTER KA
+"l=0x043B", // л = CYRILLIC SMALL LETTER EL
+"m=0x043C", // м = CYRILLIC SMALL LETTER EM
+"n=0x043D", // н = CYRILLIC SMALL LETTER EN
+"o=0x043E", // о = CYRILLIC SMALL LETTER O
+"p=0x043F", // п = CYRILLIC SMALL LETTER PE
+"r=0x0440", // р = CYRILLIC SMALL LETTER ER
+"s=0x0441", // с = CYRILLIC SMALL LETTER ES
+"t=0x0442", // т = CYRILLIC SMALL LETTER TE
+"u=0x0443", // у = CYRILLIC SMALL LETTER U
+"f=0x0444", // ф = CYRILLIC SMALL LETTER EF
+"h=0x0445", // х = CYRILLIC SMALL LETTER HA
+"c=0x0446", // ц = CYRILLIC SMALL LETTER TSE
+"0x3D =0x0447", // ч = CYRILLIC SMALL LETTER CHE
+"[=0x0448", // ш = CYRILLIC SMALL LETTER SHA
+"]=0x0449", // щ = CYRILLIC SMALL LETTER SCHCHA
+"_=0x044A", // ъ = CYRILLIC SMALL LETTER HARD SIGN
+"y=0x044B", // ы = CYRILLIC SMALL LETTER YERU
+"x=0x044C", // ь = CYRILLIC SMALL LETTER SOFT SIGN
+"0x5C =0x044D", // э = CYRILLIC SMALL LETTER E
+"`=0x044E", // ю = CYRILLIC SMALL LETTER YU
+"q=0x044F", // я = CYRILLIC SMALL LETTER YA

@@ -1,0 +1,12 @@
+Source: interxim
+Section: main
+Priority: optional
+Maintainer: Jean-Marc Lienher <oksid@bluewin.ch>
+Standards-Version: 3.1.0
+
+Package: interxim
+Section: x11
+Architecture: any
+Depends: libfltk-utf8 
+Description: Multi lingual XIM server.
+ .

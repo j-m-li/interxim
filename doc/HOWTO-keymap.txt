@@ -1,0 +1,57 @@
+   About kmap files
+
+   kmap files provide the input mapping between the 
+   characters typed in and the desired unicode character 
+   string. These source files should be converted with 
+   the mytool program into a binary map file "name.my". 
+   The generic .mys source files provide a more features,
+   that format is a recommeneded source for new kmap files.
+
+   The syntax is very simple, and it is designed so that it
+   could be included in a c++ program.
+
+   Comments
+        comments should start with //
+
+   map
+        One line can contain only a single map. The map 
+        starts and ends with a quotation mark. Quotation 
+        marks can be inserted into a line using the \"
+        escape. 
+
+        White spaces are ignored. A string segment that
+        starts with a number is considered a unicode
+        character code. Octal, decimal and hexadecimal 
+        numbers can be specified. The left side of the '=' 
+        sign is the character string typed in and the 
+        right side is the mapped unicode string.
+
+        Sample map line from Kana.kmap:
+
+        "\033 KE=0x30F5",       // SMALL KE
+        "\"R=0x201D",           // RIGHT DOUBLE QUOTATION MARK
+        "kke=0x3063 0x3051",
+        "0x20 = 0x201D",    // INPUT LITERAL BLANK 
+        "0x31= 0x31",         // DIGITS
+        "&/ /=0x005C",        // YUDIT NEEDS SPACE BETWEEN / /
+        "0x3D=0x003D",    // INPUT '=' SIGN THIS WAY
+
+        If the translation can be broken down to (maximum 5) 
+        sub-translations then the first line in the kmap file may contain:
+
+        "string1+string2+string...",
+     
+        The subsequent lines between "begin string1", and "end string1"
+        contain  the sub-translation lines. The resulting unicode number 
+        is the value of the sub-transaltions added up.  The built-in unicode
+        file and the Hangul kmaps are using this method. 
+
+        Sub-transtation may contain empty strings
+        "=0x0021",
+        but consecutive ones can not. 
+
+        During translation a greedy algorithm is used, however,  when
+        the first subtranslation would match null string one character
+        may be borrowed from the previous translation.
+
+Gaspar Sinai <gsinai@yudit.org> Tokyo 2001-01-11

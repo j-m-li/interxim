@@ -1,0 +1,89 @@
+# Syriac kmap
+# 2002-05-21 by Miikka-Markus.Alhonen@tigatieto.com
+
+// Letters
+
+"a = 0x0710",
+"b = 0x0712",
+"g = 0x0713",
+"d = 0x0715",
+"h = 0x0717",
+"w = 0x0718",
+"z = 0x0719",
+"x = 0x071a",
+"+ = 0x071b",
+"y = 0x071d",
+"k = 0x071f",
+"l = 0x0720",
+"m = 0x0721",
+"n = 0x0722",
+"s = 0x0723",
+"e = 0x0725",
+"p = 0x0726",
+"c = 0x0728",
+"q = 0x0729",
+"r = 0x072a",
+"$ = 0x072b",
+"t = 0x072c",
+
+// Ligatures (Yudit has to interpret them instantly)
+
+"r: = 0x072a 0x0308",
+
+// Variant forms
+
+"YH = 0x071e", // YUDH HE
+"S = 0x0724", // FINAL SEMKATH
+"P = 0x0727", // REVERSED PE
+
+// Garshuni letters
+
+"j = 0x0714", // GAMAL GARSHUNI
+"J = 0x071c", // TETH GARSHUNI
+"' = 0x0621", // ARABIC HAMZA
+
+// Ancient letters
+
+"D = 0x0716", // DOTLESS DALATH RISH
+
+// Dotted vowels
+
+"u = 0x0718 0x073c", // WAW + ESASA
+"o = 0x0718 0x073f", // WAW + RWAHA
+
+// Greek vowels above
+
+"A = 0x0730", // PTHAHA ABOVE (< GREEK ALPHA)
+"O = 0x0733", // ZQAPHA ABOVE (< GREEK OMIKRON)
+"E = 0x0736", // RBASA ABOVE (< GREEK EPSILON)
+"H = 0x073a", // HBASA ABOVE (< GREEK ETA)
+"U = 0x073d", // ESASA ABOVE (< GREEK YPSILON)
+
+// Greek vowels below
+
+"A' = 0x0731", // PTHAHA BELOW
+"O' = 0x0734", // ZQAPHA BELOW
+"E' = 0x0737", // RBASA BELOW
+"H' = 0x073b", // HBASA BELOW
+"U' = 0x073e", // ESASA BELOW
+
+// Diacritics
+
+"_ = 0x0304", // MACRON = Marhatana, khupaya
+"_' = 0x0320", // MACRON BELOW = Digit marker (tens of thousands), mhagyana
+"v = 0x0307", // DOT ABOVE = Digit marker (hundreds), strong vowel
+"V = 0x0323", // DOT BELOW = weak vowel
+": = 0x0308", // DIAERESIS = Seyame, Garshuni teh marbuta, aspirated p
+"* = 0x0740", // FEMININE DOT
+"i = 0x0741", // QUSHSHAYA
+"I = 0x0742", // RUKKAKHA
+"/ = 0x0747", // OBLIQUE LINE ABOVE = Digit marker (thousands), silent marker
+
+// Punctuation
+
+", = 0x060c", // ARABIC COMMA
+"; = 0x061b", // ARABIC SEMICOLON
+"? = 0x061f", // ARABIC QUESTION MARK
+"- = 0x0640", // ARABIC TATWEEL
+
+"\\ = 0x0700", // END OF PARAGRAPH

@@ -1,0 +1,84 @@
+// Arabic.kmap for Yudit by Mohammed Elzubeir <elzubeir@arabeyes.org>
+// 2001-12-17 Arabeyes <support@arabeyes.org>
+// Commented back E= - gaspar
+
+// The alphabet ‮ ‬(‮)الحروف الأبجدية‬
+"q=0x0636",          // dad (ض)
+"w=0x0635",          // sad (ص)
+"e=0x062b",          // theh (ث)
+"r=0x0642",          // qaf (ق)
+"t=0x0641",          // feh (ف)
+"y=0x063a",          // ghain  (غ)
+"u=0x0639",          // ain (ع)
+"i=0x0647",          // heh (ه)
+"o=0x062e",          // khah (خ)
+"p=0x062d",          // hah (ح)
+"[=0x062c",          // jeem (ج)
+"]=0x062f",          // dal (د)
+"a=0x0634",          // sheen (ش)
+"s=0x0633",          // seen (س)
+"d=0x064a",          // yeh (ي)
+"f=0x0628",          // beh (ب)
+"g=0x0644",          // lam (ل)
+"h=0x0627",          // alef (ا)
+"j=0x062a",          // teh (ت)
+"k=0x0646",          // noon (ن)
+"l=0x0645",          // meem (م)
+";=0x0643",          // kaf (ك)
+"'=0x0637",          // tah (ط)
+"z=0x0626",          // yeh with hamza above (ئ)
+"x=0x0621",          // Hamza (ء)
+"c=0x0624",          // waw with hamza above (ؤ)
+"v=0x0631",          // reh (ر)
+"b=0x0644 0x0627",   // lam alef (لا)
+"n=0x0649",          // alef maksura (ى)
+"m=0x0629",          // teh marbuta (ة)
+",=0x0648",          // waw (و)
+".=0x0632",          // zain (ز)
+"/=0x0638",          // zah (ظ)
+"`=0x0630",          // thal (ذ)
+
+// Tashkeel (‮التشكيل‬)
+"~=0x0651",          // shadda ( ّ )
+"Q=0x064e",          // fatha ( َ )
+"W=0x064b",          // fatahtan (ً)
+"E=0x054f",          // damma - was commented out. why? - gaspar
+"R=0x064c",          // dammatan (ٌ)
+"T=0x0644 0x0625",   // laa (alef lam) with hamza below (لإ)
+"Y=0x0625",          // alef with hamza below (إ)
+"A=0x0650",          // kasra (ِ)
+"S=0x064d",          // kasratan (ٍ)
+"D=0x005b",          // [
+"F=0x005d",          // ]
+"G=0x0644 0x0623",   // laa (alef lam) with hamza above (لأ)
+"H=0x0623",          // alef with hamza above (أ)
+"J=0x0640",          // tatweel (ـ)
+"X=0x0652",          // sukun (ْ)
+"C=0x007b",          // {
+"V=0x007d",          // }
+"B=0x0644 0x0622",   // laa (alef lam) with madda above (لآ)
+"N=0x0622",          // alef with madda (آ)
+"Z=0x007e",          // ~
+
+
+// punctuation
+
+"<=0x002c",          // decimal (٫)
+">=0x002e" ,         // period
+"P=0x061b",          // semi-colon (؛)
+"K=0x060c",          // comma (،)
+"?=0x061f",          // question mark (؟)
+"L=0x2f",            // forward slash (/)
+
+
+"0x30=0x0660",       // 0  (٠)
+"0x31=0x0661",       // 1  (١)
+"0x32=0x0662",       // 2  (٢)
+"0x33=0x0663",       // 3  (٣)
+"0x34=0x0664",       // 4  (٤)
+"0x35=0x0665",       // 5  (٥)
+"0x36=0x0666",       // 6  (٦)
+"0x37=0x0667",       // 7  (٧)
+"0x38=0x0668",       // 8  (٨)
+"0x39=0x0669",       // 9  (٩)
+"%=0x066a",          // percent  (٪)

@@ -1,0 +1,59 @@
+//
+// This kmap is contributed by: Nathan Stewart <stewart747@home.com
+// Date: 2001-01-27
+//
+// NOTE: The Klingon script is not officially included in the Unicode
+// Standard, as of version 3.1. Therefore this keymap uses codepoints
+// in the Private Use Area, which may or may not be supported by other
+// Unicode compliant processes. For information interchange, both the
+// recipient and the sender must be aware of this private agreement
+// of codepoints used for this script, since they may be used for other
+// purposes in other implementations. However, the codepoints used in
+// this keymap are the same as proposed in the ConScript Unicode
+// Registry, Version 3.1 (http://www.evertype.com/standards/csur/),
+// which is an unofficial "semi-standard" for coordinating the
+// assignment of blocks in the Unicode Private Use Area and is
+// administered by Michael Everson and John Cowan. Despite its
+// unofficial status, many implementors have deemed practical to follow
+// the recommendations of the registry. Among these implementations
+// are the Unicode font Code2000 by James Kass (available at
+// http://home.att.net/~jameskass/) and the Linux Zone allocation
+// defined in Documentation/unicode.txt of the Linux source code tree.
+//
+"a=0xF8D0", //	KLINGON LETTER A
+"b=0xF8D1", //	KLINGON LETTER B
+"ch=0xF8D2", //	KLINGON LETTER CH
+"D=0xF8D3", //	KLINGON LETTER D
+"e=0xF8D4", //	KLINGON LETTER E
+"gh=0xF8D5", //	KLINGON LETTER GH
+"H=0xF8D6", //	KLINGON LETTER H
+"I=0xF8D7", //	KLINGON LETTER I
+"j=0xF8D8", //	KLINGON LETTER J
+"l=0xF8D9", //	KLINGON LETTER L
+"m=0xF8DA", //	KLINGON LETTER M
+"n=0xF8DB", //	KLINGON LETTER N
+"ng=0xF8DC", //	KLINGON LETTER NG
+"o=0xF8DD", //	KLINGON LETTER O
+"p=0xF8DE", //	KLINGON LETTER P
+"q=0xF8DF", //	KLINGON LETTER Q
+"Q=0xF8E0", //	KLINGON LETTER QH
+"r=0xF8E1", //	KLINGON LETTER R
+"S=0xF8E2", //	KLINGON LETTER S
+"t=0xF8E3", //	KLINGON LETTER T
+"tlh=0xF8E4", //	KLINGON LETTER TLH
+"u=0xF8E5", //	KLINGON LETTER U
+"v=0xF8E6", //	KLINGON LETTER V
+"w=0xF8E7", //	KLINGON LETTER W
+"y=0xF8E8", //	KLINGON LETTER Y
+"'=0xF8E9", //	KLINGON LETTER GLOTTAL STOP
+"0x30=0xF8F0", //	KLINGON DIGIT ZERO
+"0x31=0xF8F1", //	KLINGON DIGIT ONE
+"0x32=0xF8F2", //	KLINGON DIGIT TWO
+"0x33=0xF8F3", //	KLINGON DIGIT THREE
+"0x34=0xF8F4", //	KLINGON DIGIT FOUR
+"0x35=0xF8F5", //	KLINGON DIGIT FIVE
+"0x36=0xF8F6", //	KLINGON DIGIT SIX
+"0x37=0xF8F7", //	KLINGON DIGIT SEVEN
+"0x38=0xF8F8", //	KLINGON DIGIT EIGHT
+"0x39=0xF8F9", //	KLINGON DIGIT NINE
+"z=0xF8FF", //	KLINGON SYMBOL FOR EMPIRE

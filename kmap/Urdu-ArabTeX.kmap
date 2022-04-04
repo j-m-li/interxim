@@ -1,0 +1,206 @@
+// Urdu-ArabTeX.kmap
+// 2002-05-17 Miikka-Markus.Alhonen@tigatieto.com
+// 
+// corresponds to the standard ArabTeX transliteration
+
+"a = 0x0627", // ARABIC LETTER ALEF
+"b = 0x0628", // ARABIC LETTER BEH
+"p = 0x067e", // ARABIC LETTER PEH
+"t = 0x062a", // ARABIC LETTER TEH
+"T = 0x06c3", // ARABIC LETTER TEH MARBUTA GOAL
+",t = 0x0679", // ARABIC LETTER TTEH
+"_t = 0x062b", // ARABIC LETTER THEH
+"^g = 0x062c", // ARABIC LETTER JEEM
+"j = 0x062c", // ARABIC LETTER JEEM
+"^c = 0x0686", // ARABIC LETTER TCHEH
+".h = 0x062d", // ARABIC LETTER HAH
+"_h = 0x062e", // ARABIC LETTER KHAH
+"d = 0x062f", // ARABIC LETTER DAL
+",d = 0x0688", // ARABIC LETTER DDAL 
+"_d = 0x0630", // ARABIC LETTER THAL
+"r = 0x0631", // ARABIC LETTER REH
+",r = 0x0691", // ARABIC LETTER RREH
+"z = 0x0632", // ARABIC LETTER ZAIN
+"^z = 0x0698", // ARABIC LETTER JEH
+"s = 0x0633", // ARABIC LETTER SEEN
+"^s = 0x0634", // ARABIC LETTER SHEEN
+".s = 0x0635", // ARABIC LETTER SAD
+".d = 0x0636", // ARABIC LETTER DAD
+".t = 0x0637", // ARABIC LETTER TAH
+".z = 0x0638", // ARABIC LETTER ZAH
+"` = 0x0639", // ARABIC LETTER AIN
+".g = 0x063a", // ARABIC LETTER GHAIN
+"f = 0x0641", // ARABIC LETTER FEH
+"q = 0x0642", // ARABIC LETTER QAF
+"k = 0x06a9", // ARABIC LETTER KEHEH
+"g = 0x06af", // ARABIC LETTER GAF
+"l = 0x0644", // ARABIC LETTER LAM
+"m = 0x0645", // ARABIC LETTER MEEM
+"n = 0x0646", // ARABIC LETTER NOON
+".n = 0x06ba", // ARABIC LETTER NOON GHUNNA
+"w = 0x0648", // ARABIC LETTER WAW
+",h = 0x06c1", // ARABIC LETTER HEH GOAL
+"H = 0x06c1", // ARABIC LETTER HEH GOAL
+"h = 0x06be", // ARABIC LETTER HEH DOACHASHMEE
+"y = 0x06cc", // ARABIC LETTER FARSI YEH
+"E = 0x06d2", // ARABIC LETTER YEH BARREE
+
+// Consonants with shadda (tashdiid)
+
+"bb = 0x0628 0x0651",
+"pp = 0x067e 0x0651",
+"tt = 0x062a 0x0651",
+",t,t = 0x0679 0x0651",
+"_t_t = 0x062b 0x0651",
+"^g^g = 0x062c 0x0651",
+"jj = 0x062c 0x0651",
+"^c^c = 0x0686 0x0651",
+".h.h = 0x062d 0x0651",
+"_h_h = 0x062e 0x0651",
+"dd = 0x062f 0x0651",
+",d,d = 0x0688 0x0651",
+"_d_d = 0x0630 0x0651",
+"rr = 0x0631 0x0651",
+",r,r = 0x0691 0x0651",
+"zz = 0x0632 0x0651",
+"^z^z = 0x0698 0x0651",
+"ss = 0x0633 0x0651",
+"^s^s = 0x0634 0x0651",
+".s.s = 0x0635 0x0651",
+".d.d = 0x0636 0x0651",
+".t.t = 0x0637 0x0651",
+".z.z = 0x0638 0x0651",
+"`` = 0x0639 0x0651",
+".g.g = 0x063a 0x0651",
+"ff = 0x0641 0x0651",
+"qq = 0x0642 0x0651",
+"kk = 0x06a9 0x0651",
+"gg = 0x06af 0x0651",
+"ll = 0x0644 0x0651",
+"mm = 0x0645 0x0651",
+"nn = 0x0646 0x0651",
+"ww = 0x0648 0x0651",
+",h,h = 0x06c1 0x0651",
+"yy = 0x06cc 0x0651",
+
+// Two consecutive similar consonants
+
+"b|b = 0x0628 0x0628",
+"p|p = 0x067e 0x067e",
+"t|t = 0x062a 0x062a",
+",t|,t = 0x0679 0x0679",
+"_t|_t = 0x062b 0x062b",
+"^g|^g = 0x062c 0x062c",
+"j|j = 0x062c 0x062c",
+"^c|^c = 0x0686 0x0686",
+".h|.h = 0x062d 0x062d",
+"_h|_h = 0x062e 0x062e",
+"d|d = 0x062f 0x062f",
+",d|,d = 0x0688 0x0688",
+"_d|_d = 0x0630 0x0630",
+"r|r = 0x0631 0x0631",
+",r|,r = 0x0691 0x0691",
+"z|z = 0x0632 0x0632",
+"^z|^z = 0x0698 0x0698",
+"s|s = 0x0633 0x0633",
+"^s|^s = 0x0634 0x0634",
+".s|.s = 0x0635 0x0635",
+".d|.d = 0x0636 0x0636",
+".t|.t = 0x0637 0x0637",
+".z|.z = 0x0638 0x0638",
+"`|` = 0x0639 0x0639",
+".g|.g = 0x063a 0x063a",
+"f|f = 0x0641 0x0641",
+"q|q = 0x0642 0x0642",
+"k|k = 0x06a9 0x06a9",
+"g|g = 0x06af 0x06af",
+"l|l = 0x0644 0x0644",
+"m|m = 0x0645 0x0645",
+"n|n = 0x0646 0x0646",
+".n|.n = 0x06ba 0x06ba",
+"w|w = 0x0648 0x0648",
+",h|,h = 0x06c1 0x06c1",
+"y|y = 0x06cc 0x06cc",
+
+// Additional vowel mappings
+
+"A = 0x0627", // ARABIC LETTER ALEF
+"U = 0x0648", // ARABIC LETTER WAW
+"O = 0x0648", // ARABIC LETTER WAW
+"ao = 0x0648", // ARABIC LETTER WAW
+"I = 0x06cc", // ARABIC LETTER FARSI YEH
+"ae = 0x06d2", // ARABIC LETTER YEH BARREE
+
+// Word initial vowels
+
+"-a = 0x0627 0x064e", // ARABIC LETTER ALEF + FATHA
+"-u = 0x0627 0x064f", // ARABIC LETTER ALEF + DAMMA
+"-i = 0x0627 0x0650", // ARABIC LETTER ALEF + ARABIC KASRA
+"-A = 0x0622", // ARABIC LETTER ALEF WITH MADDA
+"-U = 0x0627 0x0648", // ARABIC LETTER ALEF + WAW
+"-O = 0x0627 0x0648", // ARABIC LETTER ALEF + WAW
+"-ao = 0x0627 0x0648", // ARABIC LETTER ALEF + WAW
+"-I = 0x0627 0x06cc", // ARABIC LETTER ALEF + FARSI YEH
+"-E = 0x0627 0x06d2", // ARABIC LETTER ALEF + YEH BARREE
+"-ae = 0x0627 0x06d2", // ARABIC LETTER ALEF + YEH BARREE
+
+// Diacritics
+
+// " = ", // ARABIC WASLA ABOVE
+// " = 0x0654", // ARABIC HAMZA ABOVE
+// " = 0x0655", // ARABIC HAMZA BELOW
+// " = 0x0653", // ARABIC MADDA ABOVE
+
+// "a = 0x064e", // ARABIC FATHA
+"u = 0x064f", // ARABIC DAMMA
+"i = 0x0650", // ARABIC KASRA
+"e = 0x0650", // ARABIC KASRA
+// " = 0x0652", // ARABIC SUKUN
+"aN = 0x0627 0x064b", // ARABIC LETTER ALEF + FATHATAN
+"uN = 0x064c", // ARABIC DAMMATAN
+"iN = 0x064d", // ARABIC KASRATAN
+"_a = 0x0670", // ARABIC LETTER SUPERSCRIPT ALEF
+
+// Numbers
+
+"0x30 = 0x06f0", // EXTENDED ARABIC-INDIC DIGIT ZERO
+"0x31 = 0x06f1", // EXTENDED ARABIC-INDIC DIGIT ONE
+"0x32 = 0x06f2", // EXTENDED ARABIC-INDIC DIGIT TWO
+"0x33 = 0x06f3", // EXTENDED ARABIC-INDIC DIGIT THREE
+"0x34 = 0x06f4", // EXTENDED ARABIC-INDIC DIGIT FOUR
+"0x35 = 0x06f5", // EXTENDED ARABIC-INDIC DIGIT FIVE
+"0x36 = 0x06f6", // EXTENDED ARABIC-INDIC DIGIT SIX
+"0x37 = 0x06f7", // EXTENDED ARABIC-INDIC DIGIT SEVEN
+"0x38 = 0x06f8", // EXTENDED ARABIC-INDIC DIGIT EIGHT
+"0x39 = 0x06f9", // EXTENDED ARABIC-INDIC DIGIT NINE
+
+// Punctuation
+
+". = 0x06d4", // ARABIC FULL STOP
+", = 0x060c", // ARABIC COMMA
+"; = 0x061b", // ARABIC SEMICOLON
+"? = 0x061f", // ARABIC QUESTION MARK
+"- = 0x0640", // ARABIC TATWEEL
+
+// Additional keycodes for Arabic
+
+"_A = 0x0649", // ARABIC LETTER ALEF MAKSURA
+"Y = 0x0649", // ARABIC LETTER ALEF MAKSURA
+"'| = 0x0621", // ARABIC LETTER HAMZA
+
+// Ligatures
+
+"'A = 0x0622", // ARABIC LETTER ALEF WITH MADDA
+"'a = 0x0623", // ARABIC LETTER ALEF WITH HAMZA ABOVE
+"'w = 0x0624", // ARABIC LETTER WAW WITH HAMZA ABOVE
+"'i = 0x0625", // ARABIC LETTER ALEF WITH HAMZA BELOW
+"'y = 0x0626", // ARABIC LETTER YEH WITH HAMZA ABOVE
+// " = 0x0671", // ARABIC LETTER ALEF WASLA
+"'h = 0x06c2", // ARABIC LETTER HEH GOAL WITH HAMZA ABOVE
+"'E = 0x06d3", // ARABIC LETTER YEH BARREE WITH HAMZA ABOVE
+"'B = 0x0640 0x0654", // ARABIC TATWEEL + HAMZA ABOVE
+"la = 0x0644 0x0627", // ARABIC LETTER LAM + ARABIC LETTER ALEF
+"l'A = 0x0644 0x0622", // ARABIC LETTER LAM + ALEF WITH MADDA
+"l'a = 0x0644 0x0623", // ARABIC LETTER LAM + ALEF WITH HAMZA ABOVE
+"l'i = 0x0644 0x0625", // ARABIC LETTER LAM + ALEF WITH HAMZA BELOW
+// " = 0x0644 0x0671", // ARABIC LETTER LAM + ALEF WASLA
